@@ -1,0 +1,156 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+
+a {
+    text-decoration: none;
+    color: #d0021b;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    color: #e6e636;
+    background: #0a0a0a;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    margin: 10px auto;
+}
+
+.button:hover:enabled {
+    background: linear-gradient(#12121a,#0a0a0a);
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul.languages {
+    display: flex;
+    justify-content: center;
+}
+
+ul.languages li {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li.popular-item {
+    margin: 20px;
+    width: 200px;
+}
+
+ul.space-list-items {
+    margin-bottom: 10px;
+}
+
+img.repo-avatar {
+    width: 150px;
+}
+
+img.user-avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+div.popular-rank {
+    font-size: 20px;
+    margin: 10px;
+}
+
+li.popular-description {
+    font-size: 12px;
+}
+
+.repo-name {
+    font-weight: bold;
+}
+
+ul.nav {
+    display: flex;
+}
+
+ul.nav li {
+    margin-right: 15px;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.column input {
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    font-size: 16px;
+    width: 80%;
+}
+
+.column label {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+button.reset-button {
+    border: none;
+    background: transparent;
+    color: #d0021b;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+button.reset-button:hover {
+    cursor: pointer;
+}
